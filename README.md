@@ -1,7 +1,10 @@
 reactjs-project-set-up/
 │
+```
 ├── node_modules/         # Berisi semua dependencies yang dibutuhkan oleh project.
+```
 ├── public/               # Folder publik untuk aset statis seperti gambar dan font.
+```
 │   ├── fonts/            # Berisi file font yang digunakan dalam project.
 │   ├── images/           # Berisi file gambar yang digunakan dalam project.
 │   └── vite.svg          # Contoh file SVG (ikon) default dari Vite.
