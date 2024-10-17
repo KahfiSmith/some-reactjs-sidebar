@@ -1,46 +1,49 @@
 ```
 reactjs-project-set-up/
 │
-├── node_modules/         # Berisi semua dependencies yang dibutuhkan oleh project.
-├── public/               # Folder publik untuk aset statis seperti gambar dan font.
-│   ├── fonts/            # Berisi file font yang digunakan dalam project.
-│   ├── images/           # Berisi file gambar yang digunakan dalam project.
-│   └── vite.svg          # Contoh file SVG (ikon) default dari Vite.
-└── src/                  # Folder utama berisi kode aplikasi
-    ├── components/       # Berisi komponen-komponen React yang dibagi menjadi beberapa level abstraksi
-    │   ├── atoms/        # Komponen terkecil, tidak dapat dipecah lagi (contoh: Button, Input)
-    │   ├── molecules/    # Gabungan dari beberapa atoms membentuk komponen yang lebih kompleks (contoh: Form Field)
-    │   ├── organisms/    # Komponen yang lebih besar, gabungan dari molecules dan atoms (contoh: Header, Card)
-    │   ├── templates/    # Struktur halaman dasar yang mengkombinasikan beberapa organisms
+├── node_modules/         # Contains all the dependencies needed by the project.
+│
+├── public/               # Public folder for static assets such as images and fonts.
+│   ├── fonts/            # Contains font files used in the project.
+│   ├── images/           # Contains image files used in the project.
+│   └── vite.svg          # Example of default SVG (icon) file from Vite.
+│
+└── src/                  # Main folder containing the application's code.
+    ├── components/       # Contains React components divided into several abstraction levels.
+    │   ├── atoms/        # The smallest components that cannot be split further (e.g., Button, Input).
+    │   ├── molecules/    # A combination of atoms forming more complex components (e.g., Form Field).
+    │   ├── organisms/    # Larger components combining molecules and atoms (e.g., Header, Card).
+    │   ├── templates/    # Basic page structure combining multiple organisms.
     │
-    ├── config/           # Tempat konfigurasi seperti API dan Firebase
+    ├── config/           # Configuration such as API and Firebase settings.
     │
-    ├── hooks/            # Custom React Hooks untuk digunakan di seluruh aplikasi
+    ├── hooks/            # Custom React Hooks used across the entire application.
     │
-    ├── lib/              # Berisi helper functions dan utilities
-    │   ├── helpers/      # Fungsi-fungsi bantu untuk berbagai kebutuhan
-    │   └── utils/        # Utilities yang sering digunakan (contoh: format date, currency)
+    ├── lib/              # Contains helper functions and utilities.
+    │   ├── helpers/      # Helper functions for various needs.
+    │   └── utils/        # Frequently used utilities (e.g., date format, currency).
     │
-    ├── pages/            # Halaman-halaman utama dalam aplikasi
+    ├── pages/            # Main pages of the application.
     │
-    ├── services/         # Tempat konsumsi API, interaksi dengan backend
+    ├── services/         # For API consumption, backend interaction.
     │
-    ├── store/            # State management untuk aplikasi, Redux slices biasanya disimpan di sini
-    │   └── slices/       # Folder ini berisi slice state management (contoh: authSlice, userSlice)
+    ├── store/            # State management for the application, Redux slices are usually stored here.
+    │   └── slices/       # This folder contains state management slices (e.g., authSlice, userSlice).
     │
-    ├── types/            # Tempat untuk definisi tipe TypeScript (interface, types)
-    │   └── index.ts      # Berisi tipe data umum yang digunakan dalam aplikasi
+    ├── types/            # Place for TypeScript type definitions (interfaces, types).
+    │   └── index.ts      # Contains common types used across the application.
     │
-    ├── App.tsx           # Komponen utama yang memuat semua komponen lainnya
-    ├── index.css         # CSS utama yang diterapkan di seluruh aplikasi
-    ├── main.tsx          # Entry point dari aplikasi React
-    ├── vite-env.d.ts     # Konfigurasi lingkungan untuk Vite (jika menggunakan Vite)
+    ├── App.tsx           # The main component that holds all other components.
+    ├── index.css         # Global CSS applied across the entire application.
+    ├── main.tsx          # Entry point of the React application.
+    ├── vite-env.d.ts     # Environment configuration for Vite (if using Vite).
     │
-    ├── .eslintrc.cjs     # Konfigurasi untuk ESLint (tools linter untuk menjaga kualitas kode)
-    ├── index.html        # Halaman HTML root yang digunakan untuk memuat aplikasi React
-    ├── package-lock.json # Informasi lengkap mengenai dependencies yang digunakan
-    ├── package.json      # Metadata project dan daftar dependencies
-    ├── postcss.config.js # Konfigurasi untuk PostCSS (jika menggunakan Tailwind CSS)
-    ├── tailwind.config.js# Konfigurasi untuk Tailwind CSS
-    └── README.md         # Dokumentasi project
+    ├── .eslintrc.cjs     # ESLint configuration (linter tools to maintain code quality).
+    ├── index.html        # The root HTML page used to mount the React app.
+    ├── package-lock.json # Complete information about the dependencies used.
+    ├── package.json      # Project metadata and dependencies list.
+    ├── postcss.config.js # Configuration for PostCSS (if using Tailwind CSS).
+    └── tailwind.config.js# Configuration for Tailwind CSS.
+    └── README.md         # Project documentation.
+
 ```
