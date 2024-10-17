@@ -1,4 +1,6 @@
-import { LabelProps } from "@/types";
+import { LabelHTMLAttributes } from "react";
+
+type LabelProps = LabelHTMLAttributes<HTMLLabelElement>;
 
 export default function Label({ htmlFor, children, className }: LabelProps) {
   return (
