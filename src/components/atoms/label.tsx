@@ -1,7 +1,3 @@
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
 import { LabelHTMLAttributes } from "react";
 
 type LabelProps = LabelHTMLAttributes<HTMLLabelElement>;

@@ -1,7 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import "./App.css";
-import NotFound from "./pages/NotFound";
-import Index from "./pages";
+import NotFound from "@/pages/NotFound";
+import Index from "@/pages";
 
 function App() {
   return (
