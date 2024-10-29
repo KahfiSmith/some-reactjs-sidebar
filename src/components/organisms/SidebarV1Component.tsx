@@ -1,4 +1,3 @@
-// SidebarV1Component.tsx
 import {
   ChevronLeft,
   User,
@@ -22,7 +21,10 @@ interface MenuItem {
   gap?: boolean;
 }
 
-export default function SidebarV1Component({ open, setOpen }: SidebarV1ComponentProps) {
+export default function SidebarV1Component({
+  open,
+  setOpen,
+}: SidebarV1ComponentProps) {
   const Menus: MenuItem[] = [
     { title: "Dashboard", icon: <LayoutGrid size={20} /> },
     { title: "Inbox", icon: <MessageCircleCode size={20} /> },
@@ -51,8 +53,8 @@ export default function SidebarV1Component({ open, setOpen }: SidebarV1Component
         <img
           src="/images/react.svg"
           className={`w-12 h-12 cursor-pointer duration-500 ${
-          open && "rotate-[360deg]"
-        }`}
+            open && "rotate-[360deg]"
+          }`}
         />
         <h1
           className={`text-white origin-left font-medium text-xl duration-300 ${
